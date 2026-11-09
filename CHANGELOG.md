@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `greet()` accepts a `punctuation` argument: `greet("Hee", ".")` returned a `TypeError`, now returns `Hello, Hee.`.
+
+### Fixed
+
+- `greet()` with a blank name: `greet(" ")` returned `Hello,  !`, now returns `Hello, world!`.
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
